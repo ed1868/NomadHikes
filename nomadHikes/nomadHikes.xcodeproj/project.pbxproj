@@ -15,6 +15,13 @@
 		52466724252677A500BF3E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52466722252677A500BF3E34 /* LaunchScreen.storyboard */; };
 		5246672F252677A500BF3E34 /* nomadHikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246672E252677A500BF3E34 /* nomadHikesTests.swift */; };
 		5246673A252677A500BF3E34 /* nomadHikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52466739252677A500BF3E34 /* nomadHikesUITests.swift */; };
+		5246674B25267C3A00BF3E34 /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246674A25267C3A00BF3E34 /* UIScrollViewController.swift */; };
+		5246675025267C4900BF3E34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246674F25267C4900BF3E34 /* ContentView.swift */; };
+		5246675525267C6400BF3E34 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246675425267C6400BF3E34 /* TabBarView.swift */; };
+		5246675A25267C7700BF3E34 /* ActivitiesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246675925267C7700BF3E34 /* ActivitiesContentView.swift */; };
+		5246675F25267C8C00BF3E34 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246675E25267C8C00BF3E34 /* PlaceDetailView.swift */; };
+		5246676425267CBE00BF3E34 /* ActivitiesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246676325267CBE00BF3E34 /* ActivitiesStore.swift */; };
+		5246676925267CD000BF3E34 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246676825267CD000BF3E34 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		52466735252677A500BF3E34 /* nomadHikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nomadHikesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52466739252677A500BF3E34 /* nomadHikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nomadHikesUITests.swift; sourceTree = "<group>"; };
 		5246673B252677A500BF3E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5246674A25267C3A00BF3E34 /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
+		5246674F25267C4900BF3E34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5246675425267C6400BF3E34 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5246675925267C7700BF3E34 /* ActivitiesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesContentView.swift; sourceTree = "<group>"; };
+		5246675E25267C8C00BF3E34 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		5246676325267CBE00BF3E34 /* ActivitiesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesStore.swift; sourceTree = "<group>"; };
+		5246676825267CD000BF3E34 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				52466720252677A500BF3E34 /* Assets.xcassets */,
 				52466722252677A500BF3E34 /* LaunchScreen.storyboard */,
 				52466725252677A500BF3E34 /* Info.plist */,
+				5246674A25267C3A00BF3E34 /* UIScrollViewController.swift */,
+				5246674F25267C4900BF3E34 /* ContentView.swift */,
+				5246675425267C6400BF3E34 /* TabBarView.swift */,
+				5246675925267C7700BF3E34 /* ActivitiesContentView.swift */,
+				5246675E25267C8C00BF3E34 /* PlaceDetailView.swift */,
+				5246676325267CBE00BF3E34 /* ActivitiesStore.swift */,
+				5246676825267CD000BF3E34 /* AccountView.swift */,
 			);
 			path = nomadHikes;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5246671C252677A200BF3E34 /* ViewController.swift in Sources */,
+				5246675025267C4900BF3E34 /* ContentView.swift in Sources */,
 				52466718252677A200BF3E34 /* AppDelegate.swift in Sources */,
+				5246675F25267C8C00BF3E34 /* PlaceDetailView.swift in Sources */,
+				5246676925267CD000BF3E34 /* AccountView.swift in Sources */,
+				5246676425267CBE00BF3E34 /* ActivitiesStore.swift in Sources */,
 				5246671A252677A200BF3E34 /* SceneDelegate.swift in Sources */,
+				5246675A25267C7700BF3E34 /* ActivitiesContentView.swift in Sources */,
+				5246675525267C6400BF3E34 /* TabBarView.swift in Sources */,
+				5246674B25267C3A00BF3E34 /* UIScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
