@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
             let settings = UserSettings()
             window.rootViewController = UIHostingController(rootView: TabbarView().environmentObject(settings))
+
             self.window = window
             window.makeKeyAndVisible()
         }

@@ -132,7 +132,7 @@ struct ActivitiesContentView: View {
                         
                         
                     }
-                    .navigationBarTitle("Activities")
+                    .navigationBarTitle("Nomads Track")
                     .navigationBarItems(trailing:
                     Button(action: {
                         self.settings.loggedIn = false
