@@ -48,7 +48,7 @@ struct ContentView: View {
     var body: some View {
     GeometryReader { geometry in
         NavigationView {
-                ZStack {
+                ZStack {    
 //                    NavigationLink(destination: LogInView(), isActive: self.$settings.navigateNowToLogIn) { EmptyView() }
 //                    NavigationLink(destination: SignUpView(), isActive: self.$settings.navigateNowToSignup) { EmptyView() }
                     
